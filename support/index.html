@@ -1,83 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Pre-launch support for the Material Studio Shopify theme.">
-    <title>Support — Material Studio</title>
-    <link rel="stylesheet" href="../assets/styles.css">
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="wordmark" href="../" aria-label="Material Studio home">Material Studio</a>
-        <nav class="site-nav" aria-label="Primary">
-          <ul>
-            <li><a href="../">Overview</a></li>
-            <li><a href="../docs/">Documentation</a></li>
-            <li><a href="./" aria-current="page">Support</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main id="main" class="page-shell">
-      <section class="content-section section-grid" aria-labelledby="support-title">
-        <div class="section-intro">
-          <p class="eyebrow">Pre-launch support</p>
-          <h1 id="support-title">How can we help?</h1>
-          <p class="lede">
-            Material Studio is still in development. GitHub Issues will be used
-            temporarily for project and documentation questions.
-          </p>
-        </div>
-        <div class="section-body">
-          <ol class="support-steps">
-            <li>
-              <span>01 — Check</span>
-              Review the documentation and current development status first.
-            </li>
-            <li>
-              <span>02 — Describe</span>
-              Explain the question or problem clearly, including the affected page.
-            </li>
-            <li>
-              <span>03 — Include</span>
-              Add relevant screenshots, browser details, and Shopify store URL when appropriate.
-            </li>
-            <li>
-              <span>04 — Submit</span>
-              Open a GitHub Issue in the temporary documentation repository.
-            </li>
-          </ol>
-
-          <div class="prose">
-            <p>
-              <a class="button button--primary" href="https://github.com/rafeekwassef-droid/material-studio-docs/issues/new">
-                Open a support request
-              </a>
-            </p>
-            <div class="callout">
-              Before Theme Store submission, this temporary channel will be
-              replaced by a dedicated merchant contact form on the final custom domain.
-            </div>
-            <h2>Response expectations</h2>
-            <p>
-              This page does not yet represent the final commercial support policy.
-              The final policy, response times, file-upload flow, and autoresponder
-              will be published before the theme is submitted or sold.
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="footer-inner">
-        <p>Material Studio — pre-launch support</p>
-        <p><a href="../docs/">Documentation</a></p>
-      </div>
-    </footer>
-  </body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Contact Material Studio merchant support with your store, theme version, and issue details."><title>Support — Material Studio</title><link rel="stylesheet" href="../assets/styles.css"></head><body>
+<a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="wordmark" href="../">Material Studio</a><nav class="site-nav" aria-label="Primary"><ul><li><a href="../">Overview</a></li><li><a href="../docs/">Documentation</a></li><li><a href="../support/" aria-current="page">Support</a></li></ul></nav></div></header>
+<main id="main" class="page-shell"><section class="content-section section-grid"><div class="section-intro"><p class="eyebrow">Merchant support</p><h1>How can we help?</h1><p class="lede">Tell us what happened and where. Include enough detail for us to reproduce it.</p><p>For setup guidance, start with the <a href="../docs/">documentation</a>.</p></div><div class="section-body">
+<div class="callout"><strong>Pre-release support setup:</strong> form delivery is awaiting inbox activation and an end-to-end delivery check. Until that is complete, email <a href="mailto:rafeekwassef@yahoo.com">rafeekwassef@yahoo.com</a> directly.</div>
+<form class="support-form" action="https://formsubmit.co/rafeekwassef@yahoo.com" method="post" enctype="multipart/form-data">
+<input type="hidden" name="_subject" value="Material Studio merchant support"><input type="hidden" name="_template" value="table"><input type="hidden" name="_autoresponse" value="Thank you for contacting Material Studio. Your support request has been received. We aim to reply within two business days, Monday to Friday. Please do not send passwords or customer data. Setup guide: https://rafeekwassef-droid.github.io/material-studio-docs/docs/"><input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="form-field"><label for="support-name">Name</label><input id="support-name" name="name" autocomplete="name" required maxlength="150"></div>
+<div class="form-field"><label for="support-email">Email address</label><input id="support-email" name="email" type="email" autocomplete="email" required maxlength="254"></div>
+<div class="form-field"><label for="support-store">Shopify store URL</label><input id="support-store" name="store" type="url" placeholder="https://your-store.myshopify.com" required aria-describedby="store-help"><small id="store-help">Include https:// at the start.</small></div>
+<div class="form-field"><label for="support-version">Theme version</label><input id="support-version" name="theme_version" value="0.2.0" required maxlength="40"></div>
+<div class="form-field"><label for="support-device">Browser and device</label><input id="support-device" name="browser_device" placeholder="For example: Safari on iPhone" maxlength="200"></div>
+<div class="form-field"><label for="support-message">What do you need help with?</label><textarea id="support-message" name="message" rows="7" required maxlength="10000" aria-describedby="message-help"></textarea><small id="message-help">Include the affected page, steps to reproduce, what you expected, and what happened.</small></div>
+<div class="form-field"><label for="support-attachment">Screenshot (optional)</label><input id="support-attachment" name="attachment" type="file" accept="image/png,image/jpeg,image/webp" aria-describedby="attachment-help"><small id="attachment-help">PNG, JPEG, or WebP, up to 10 MB. Remove customer details and private information.</small></div>
+<p class="form-privacy">Submitting sends these details and any attachment to FormSubmit for email delivery to Material Studio support. You may instead email us directly. Do not include passwords, access tokens, payment details, or customer records. See <a href="https://formsubmit.co/privacy.pdf">FormSubmit's privacy policy</a>.</p>
+<button class="button button--primary" type="submit">Send support request</button><p>Complete the service's spam check after sending. Keep your message until you receive confirmation; a form submission alone does not prove inbox delivery.</p></form>
+<div class="prose"><h2>What support covers</h2><p>Theme installation, setup questions, and reproducible defects in Material Studio. Custom development, third-party app issues, and Shopify account or payment problems may require the relevant provider.</p><h2>Response time</h2><p>Our response target is within two business days, Monday to Friday. An automated acknowledgement is separate from a support reply.</p></div></div></section></main><footer class="site-footer"><div class="footer-inner"><p>Material Studio · Version 0.2.0 QA · October 2026</p><p><a href="../support/">Contact support</a></p></div></footer></body></html>

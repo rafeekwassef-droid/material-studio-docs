@@ -1,29 +1,18 @@
-# Material Studio documentation site
+# Material Studio merchant documentation
 
-Temporary public documentation and support site for Material Studio.
+Public site: https://rafeekwassef-droid.github.io/material-studio-docs/
 
-## Intended GitHub Pages URLs
+Version 0.2.0 is a QA build, not a released Theme Store product. Theme metadata points to `/docs/` and `/support/`. A custom domain is optional.
 
-- Site: `https://rafeekwassef-droid.github.io/material-studio-docs/`
-- Documentation: `https://rafeekwassef-droid.github.io/material-studio-docs/docs/`
-- Support: `https://rafeekwassef-droid.github.io/material-studio-docs/support/`
+## Support delivery gate
 
-## Publishing
+Recipient: rafeekwassef@yahoo.com (also used for the Shopify login).
 
-Publish this directory to the public GitHub repository:
+The form posts normally to FormSubmit with CAPTCHA enabled, image attachment support and an acknowledgement template. Before marking support ready:
 
-```text
-rafeekwassef-droid/material-studio-docs
-```
+1. Submit an activation request and confirm FormSubmit's email in the recipient inbox.
+2. Replace the email-form endpoint with the opaque endpoint supplied by FormSubmit, if available.
+3. Send an authorized test with a small screenshot; verify recipient delivery, attachment and sender acknowledgement.
+4. Remove the pending-activation callout only after delivery is verified. Preserve direct email as a fallback.
 
-Then enable GitHub Pages from the `main` branch and repository root.
-
-## Submission note
-
-This is a pre-launch site. Before Shopify Theme Store submission:
-
-- Move or connect the site to the final custom domain.
-- Replace GitHub Issues support with the final merchant contact form.
-- Complete the documentation and FAQ against the released theme.
-- Update the theme metadata with the final documentation and support URLs.
-
+The response target is two business days. Do not publish a claim that support is operational until the above test passes. No credentials are stored in this site.
